@@ -17,13 +17,19 @@ body, background
 	margin:0 auto;
 }
 
-#header 
+#header
+{
+	width:1000px;
+	height:396px;
+}
+
+#top_header 
 {
 	background-image:url(images/top_header_bg.gif);
 	background-repeat:repeat-x;
+	background-position:top left;
 	padding-top:13px;
-	width:1000px;
-	height:362px;	
+	height:37px;		
 	color:#D8DCE0;
 	overflow:hidden;
 }
@@ -101,7 +107,7 @@ body, background
 	vertical-align:middle;
 	width:555px;
 	height:33px;
-	padding:0 15px;
+	padding:0 15px 17px 15px;
 }
 
 #menu_bg ul
@@ -136,8 +142,8 @@ body, background
 
 #logo_banner
 {
-	width:1000px;
-	height:264;
+	width:961px;
+	height:294px;
 	float:left;
 	padding:0px 0px 0px 39px;
 }
@@ -153,7 +159,7 @@ body, background
 #banner_block
 {
 	width:737px;
-	height:189px;
+	height:190px;
 	background:url(images/banner.jpg);
 	background-position:top left;
 	background-repeat:no-repeat;
@@ -171,7 +177,7 @@ body, background
 	background-position:bottom left;
 	background-repeat:no-repeat;
 	font-size:11px;
-	padding:10px 0;
+	padding:10px 0px;	
 }
 
 .title
@@ -200,10 +206,10 @@ body, background
 	background:url(images/search_textbox.gif);
 	background-position:top left;
 	background-repeat:no-repeat;
-	padding:0 5px;
+	padding:0px 5px;
 	border:none;
 	color:#FFF;
-	width:130px;
+	width:120px;
 	height:21px;
 }
 
