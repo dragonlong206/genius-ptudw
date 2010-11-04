@@ -8,66 +8,54 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PTUDW_CTLH_C1 {
+namespace PTUDW_CTLH_C1.WUC {
     
     
-    public partial class _Default {
+    public partial class wucSearch {
         
         /// <summary>
-        /// ltrWelcome control.
+        /// ddlNoiKhoiHanh control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ltrWelcome;
+        protected global::System.Web.UI.WebControls.DropDownList ddlNoiKhoiHanh;
         
         /// <summary>
-        /// ImageButton1 control.
+        /// ddlNoiDen control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.DropDownList ddlNoiDen;
         
         /// <summary>
-        /// ImageButton2 control.
+        /// ddlGia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton2;
+        protected global::System.Web.UI.WebControls.DropDownList ddlGia;
         
         /// <summary>
-        /// ImageButton3 control.
+        /// ddlDateTimePicker control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton3;
+        protected global::System.Web.UI.WebControls.DropDownList ddlDateTimePicker;
         
         /// <summary>
-        /// ImageButton4 control.
+        /// btnSearch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton4;
-        
-        /// <summary>
-        /// Master property.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated property.
-        /// </remarks>
-        public new PTUDW_CTLH_C1.Main_3col Master {
-            get {
-                return ((PTUDW_CTLH_C1.Main_3col)(base.Master));
-            }
-        }
+        protected global::System.Web.UI.WebControls.LinkButton btnSearch;
     }
 }

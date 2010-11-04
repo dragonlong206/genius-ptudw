@@ -50,6 +50,15 @@ namespace PTUDW_CTLH_C1 {
         protected global::System.Web.UI.WebControls.Button txtButton;
         
         /// <summary>
+        /// ddlThemes control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlThemes;
+        
+        /// <summary>
         /// txtSearchHotTour control.
         /// </summary>
         /// <remarks>
@@ -59,6 +68,15 @@ namespace PTUDW_CTLH_C1 {
         protected global::System.Web.UI.WebControls.TextBox txtSearchHotTour;
         
         /// <summary>
+        /// lnkCacTuyenKhac control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkCacTuyenKhac;
+        
+        /// <summary>
         /// ContentPlaceHolder1 control.
         /// </summary>
         /// <remarks>
@@ -66,5 +84,32 @@ namespace PTUDW_CTLH_C1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        
+        /// <summary>
+        /// wucSearch control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::PTUDW_CTLH_C1.WUC.wucSearch wucSearch;
+        
+        /// <summary>
+        /// imgService control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton imgService;
+        
+        /// <summary>
+        /// imgAdv1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton imgAdv1;
     }
 }
