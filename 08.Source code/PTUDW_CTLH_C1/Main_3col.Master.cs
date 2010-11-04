@@ -11,7 +11,25 @@ namespace PTUDW_CTLH_C1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        protected void ddlThemes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Session["SelectedTheme"] = this.ddlThemes.Text;
+            Server.Transfer(Request.FilePath);
+        }
+
+        public string SelectedTheme
+        {
+            get
+            {
+                return this.ddlThemes.Text;
+            }
+            set
+            {
+                this.ddlThemes.Text = value;
+            }
         }
     }
 }

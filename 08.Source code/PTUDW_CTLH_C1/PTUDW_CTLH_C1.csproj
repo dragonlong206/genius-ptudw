@@ -64,6 +64,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Detail.aspx.cs">
+      <DependentUpon>Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Detail.aspx.designer.cs">
+      <DependentUpon>Detail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Main_3col.Master.cs">
       <DependentUpon>Main_3col.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -72,14 +79,24 @@
       <DependentUpon>Main_3col.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WUC\wucSearch.ascx.cs">
+      <DependentUpon>wucSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WUC\wucSearch.ascx.designer.cs">
+      <DependentUpon>wucSearch.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main_3col.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\AnotherTheme\AnotherStyle.css" />
+    <Content Include="App_Themes\AnotherTheme\images\btnLogin.jpg" />
     <Content Include="App_Themes\MainTheme\images\banner.jpg" />
     <Content Include="App_Themes\MainTheme\images\btnLogin.jpg" />
     <Content Include="App_Themes\MainTheme\images\btnSearch.gif" />
+    <Content Include="App_Themes\MainTheme\images\detail.gif" />
     <Content Include="App_Themes\MainTheme\images\footer_bg.gif" />
     <Content Include="App_Themes\MainTheme\images\hottour_label.gif" />
     <Content Include="App_Themes\MainTheme\images\left-menu-item.jpg" />
@@ -100,6 +117,11 @@
     <Content Include="App_Themes\MainTheme\images\top_textbox.gif" />
     <Content Include="App_Themes\MainTheme\Skin.skin" />
     <Content Include="App_Themes\MainTheme\Style.css" />
+    <Content Include="Detail.aspx" />
+    <Content Include="WUC\wucSearch.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\AnotherTheme\AnotherSkin.skin" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
